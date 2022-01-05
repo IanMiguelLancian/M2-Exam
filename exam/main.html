@@ -8,12 +8,12 @@
 
 <body>
     <div class="body">
-        <img class = "pet-image" src="images/bart.jpg">
+        <img id = "pet-image" class = "pet-image" src="images/bart.jpg">
         <div class="buttons-row">
-            <button class="heart-button">
+            <button onclick = "heartButton()" class="heart-button">
                 <ion-icon name="heart-sharp"></ion-icon>
             </button>
-            <button class="x-button">
+            <button onclick= "xButton()" class="x-button">
                 <ion-icon name="close-sharp"></ion-icon>
             </button>
         </div>
@@ -26,6 +26,7 @@
 
     <div class ="sidebar2">
         <h2>Name</h2>
+        <p id = "hearted-pets"></p>
     </div>
 
     <script src="apps.js"></script>
