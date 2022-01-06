@@ -8,25 +8,52 @@
 
 <body>
     <div class="body">
-        <img id = "pet-image" class = "pet-image" src="images/bart.jpg">
+        <div class = "pet-info">
+            <img id = "pet-image" class = "pet-image" src="images/bart.jpg">
+        </div>
         <div class="buttons-row">
-            <button onclick = "heartButton()" class="heart-button">
+            <button id="heartbtn" class="heart-button">
                 <ion-icon name="heart-sharp"></ion-icon>
             </button>
-            <button onclick= "xButton()" class="x-button">
+            <button id="x-button" class="x-button">
                 <ion-icon name="close-sharp"></ion-icon>
             </button>
         </div>
     </div>
 
     <div class ="sidebar1">
-        <h2>pets.</h2>
-        <p>find a pet that suits you</p>
+        <h2>Adoption List</h2>
+        <p>Find a pet that suits you</p>
     </div>
 
     <div class ="sidebar2">
-        <h2>Name</h2>
-        <h3 id = "hearted-pets"></h3>
+        <ul id="hearted-pets" class="hearted-pets">
+            <li>
+                <img id = "hearted-pet-image-1" class = "hearted-pet-image">
+                <p id = "hearted-pet-name-1" class = "hearted-pet-name"></p>
+            </li>
+            <li>
+                <img id = "hearted-pet-image-2" class = "hearted-pet-image">
+                <p id = "hearted-pet-name-2" class = "hearted-pet-name"></p>
+            </li>
+            <li>
+                <img id = "hearted-pet-image-3" class = "hearted-pet-image">
+                <p id = "hearted-pet-name-3" class = "hearted-pet-name"></p>
+            </li>
+            <li>
+                <img id = "hearted-pet-image-4" class = "hearted-pet-image">
+                <p id = "hearted-pet-name-4" class = "hearted-pet-name"></p>
+            </li>
+            <li>
+                <img id = "hearted-pet-image-5" class = "hearted-pet-image">
+                <p id = "hearted-pet-name-5" class = "hearted-pet-name"></p>
+            </li>
+            <li>
+                <img id = "hearted-pet-image-6" class = "hearted-pet-image">
+                <p id = "hearted-pet-name-6" class = "hearted-pet-name"></p>
+            </li>
+        </ul>
+        
     </div>
 
     <script src="apps.js"></script>

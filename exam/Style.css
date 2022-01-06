@@ -1,43 +1,82 @@
+@font-face {
+  font-family: 'gothamr-medium';
+  src: url(fonts/GothamRoundedMedium_21022.ttf);
+}
+
 body {
     display: block;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
   }
   .sidebar1 {
-    width: 330px;
-    height: 100px;
-    border-radius: 5px;
+    width: 46.5vh;
+    height: 13vh;
     text-align: center;
     color:aliceblue;
-    background: rgb(131, 0, 28);
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
     padding: 8px 0;
-    margin-top: -755px;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    margin-top: -745px;
+    font-family: 'gothamr-medium';
+    font-size: 17px;
   }
+
   .sidebar2 {
-    display: block;
-    width: 330px;
-    height: 620px;
-    border-radius: 5px;
+    object-fit: contain;
+    width: 46.5vh;
+    height: 83.8vh;
     text-align: center;
     color: black;
     word-wrap: break-word;
-    /* background: rgb(241, 241, 241); */
-    background-color: aliceblue;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
     padding: 8px 0;
     margin-top: 5px;
-    margin-left: 5px;
   }
+
+
+  .hearted-pets{
+    width: 100%;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .hearted-pets li{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    height: 100px;
+  }
+
+  .hearted-pet-image{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 80px;
+    width:80px;
+    object-fit: cover;
+    margin-right: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  .hearted-pet-name{
+    display: inline;
+    font-size: 30px;
+    font-family: 'gothamr-medium';
+    color: white;
+  }
+
   .body{
-      width: 1175px;
-      height: 755px;
-      border-radius: 5px;
-      /* background: rgb(241, 241, 241); */
-      background-color: aliceblue;
-      margin-left: 340px;
-      margin-top: 5px;
-      margin-bottom: -5px;
+    object-fit: contain;
+    width: 163.5vh;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-left: 340px;
   }
 
   .pet-image{
