@@ -5,6 +5,10 @@ let pet_images = [
     'images/cookie.jpg','images/emo.jpg','images/koko.jpg',
     'images/tabby.jpg'
 ]
+let pet_names = [
+    'Bart', 'Bob', 'Bree', 'Buster', 'Champ', 'Charlie', 'Cookie', 'Emo',
+    'Koko', 'Tabby'
+]
 
 let hearted_pets = [];
 let currently_viewed_pet = "";
@@ -24,7 +28,7 @@ function xButton(){
 }
 
 function heartButton(){
-    currently_viewed_pet = pet_images[index_counter];
+    currently_viewed_pet = pet_names[index_counter];
     
     if(!hearted_pets.includes(currently_viewed_pet)){
         hearted_pets.push(currently_viewed_pet);
@@ -34,8 +38,3 @@ function heartButton(){
     }
     
 }
-
-
-
-
-
