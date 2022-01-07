@@ -13,10 +13,12 @@ body {
     height: 13vh;
     text-align: center;
     color:aliceblue;
-    background-color: #FF9A8B;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    background-color: #D38312;
+    background-image: linear-gradient(90deg, #D38312,#A83279);
     padding: 8px 0;
-    margin-top: -745px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: -760px;
     font-family: 'gothamr-medium';
     font-size: 17px;
   }
@@ -24,12 +26,14 @@ body {
   .sidebar2 {
     object-fit: contain;
     width: 46.5vh;
-    height: 83.8vh;
+    height: 86.9vh;
     text-align: center;
-    color: black;
+    font-family: 'gothamr-medium';
+    color: white;
     word-wrap: break-word;
-    background-color: #FF9A8B;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    background-color: #c9c9c9;
+    border-radius: 20px;
+    margin-left: 5px;
     padding: 8px 0;
     margin-top: 5px;
   }
@@ -74,8 +78,7 @@ body {
     object-fit: contain;
     width: 163.5vh;
     height: 100vh;
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    background-color: white;
     margin-left: 340px;
   }
 
