@@ -1,9 +1,9 @@
 
 let pet_images = [
-    'images/bart.jpg', 'images/bob.jpg','images/bree.jpg',
-    'images/buster.png','images/champ.jpg','images/charlie.jpg',
-    'images/cookie.jpg','images/emo.jpg','images/koko.jpg',
-    'images/tabby.jpg'
+    'images/bart1.jpg', 'images/bob1.jpg','images/bree1.jpg',
+    'images/buster1.png','images/champ1.jpg','images/charlie1.jpg',
+    'images/cookie1.jpg','images/emo1.jpg','images/koko1.jpg',
+    'images/tabby1.jpg'
 ]
 let pet_names = [
     'Bart', 'Bob', 'Bree', 'Buster', 'Champ', 'Charlie', 'Cookie', 'Emo',
